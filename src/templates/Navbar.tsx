@@ -44,13 +44,13 @@ export const Navbar = () => {
           <Link href="/sign-up">{t('blog')}</Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link href="/sign-up">{t('community')}</Link>
         </li>
 
         <li>
           <Link href="/sign-up">{t('company')}</Link>
-        </li>
+        </li> */}
       </CenteredMenu>
     </Section>
   );
