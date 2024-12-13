@@ -62,14 +62,14 @@
     "next_renew_date": "Your subscription renews on {date}"
   },
   "FAQ": {
-    "question1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-    "answer1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit.",
-    "question2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-    "answer2": "Lorem ",
-    "answer3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit.",
-    "question3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-    "answer4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit.",
-    "question4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?"
+    "question-1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+    "answer-1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit.",
+    "question-2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+    "answer-2": "Lorem ",
+    "answer-3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit.",
+    "question-3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+    "answer-4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam enim dui, id consequat turpis ullamcorper ac. Mauris id quam dolor. Nullam eu egestas turpis. Proin risus elit, sollicitudin in mi a, accumsan euismod turpis. In euismod mi sed diam tristique hendrerit.",
+    "question-4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?"
   },
   "CTA": {
     "title": "You are ready?",

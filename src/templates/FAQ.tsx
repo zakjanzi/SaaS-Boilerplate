@@ -15,20 +15,20 @@ export const FAQ = () => {
     <Section>
       <Accordion type="multiple" className="w-full">
         <AccordionItem value="item-1">
-          <AccordionTrigger>{t('question1')}</AccordionTrigger>
-          <AccordionContent>{t('answer1')}</AccordionContent>
+          <AccordionTrigger>{t('question-1')}</AccordionTrigger>
+          <AccordionContent>{t('answer-1')}</AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>{t('question2')}</AccordionTrigger>
-          <AccordionContent>{t('answer2')}</AccordionContent>
+          <AccordionTrigger>{t('question-2')}</AccordionTrigger>
+          <AccordionContent>{t('answer-2')}</AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>{t('question3')}</AccordionTrigger>
-          <AccordionContent>{t('answer3')}</AccordionContent>
+          <AccordionTrigger>{t('question-3')}</AccordionTrigger>
+          <AccordionContent>{t('answer-3')}</AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">
-          <AccordionTrigger>{t('question4')}</AccordionTrigger>
-          <AccordionContent>{t('answer4')}</AccordionContent>
+          <AccordionTrigger>{t('question-4')}</AccordionTrigger>
+          <AccordionContent>{t('answer-4')}</AccordionContent>
         </AccordionItem>
         {/* <AccordionItem value="item-5">
           <AccordionTrigger>{t('question')}</AccordionTrigger>
