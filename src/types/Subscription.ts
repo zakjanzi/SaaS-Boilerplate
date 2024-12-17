@@ -23,17 +23,20 @@ export const SUBSCRIPTION_STATUS = {
 // You can find a live demo at: https://pro-demo.nextjs-boilerplate.com
 export type PricingPlan = {
   id: PlanId;
+  nameKey: string;
+  descriptionKey: string;
   price: number;
-  interval: BillingInterval;
+  // interval: BillingInterval;
   testPriceId: string; // Use for testing
   devPriceId: string;
   prodPriceId: string;
-  features: {
-    teamMember: number;
-    website: number;
-    storage: number;
-    transfer: number;
-  };
+  itemsKeys: string[];
+  // features: {
+  //   teamMember: number;
+  //   website: number;
+  //   storage: number;
+  //   transfer: number;
+  // };
 };
 
 export type IStripeSubscription = {

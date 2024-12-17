@@ -1,12 +1,11 @@
 import type { LocalePrefix } from 'node_modules/next-intl/dist/types/src/routing/types';
 
-import { BILLING_INTERVAL, type PricingPlan } from '@/types/Subscription';
+import type { PricingPlan } from '@/types/Subscription';
 
 const localePrefix: LocalePrefix = 'as-needed';
 
-// FIXME: Update this configuration file based on your project information
 export const AppConfig = {
-  name: 'SaaS Template',
+  name: '961 Automation Agency',
   locales: [
     {
       id: 'en',
@@ -29,46 +28,63 @@ export const PLAN_ID = {
 export const PricingPlanList: Record<string, PricingPlan> = {
   [PLAN_ID.FREE]: {
     id: PLAN_ID.FREE,
+    nameKey: 'free_plan_name',
+    descriptionKey: 'free_plan_description',
     price: 0,
-    interval: BILLING_INTERVAL.MONTH,
-    testPriceId: '',
-    devPriceId: '',
-    prodPriceId: '',
-    features: {
-      teamMember: 2,
-      website: 2,
-      storage: 2,
-      transfer: 2,
-    },
+    // interval: 'month',
+    itemsKeys: ['free_plan_item-1', 'free_plan_item-2'], // Map these keys
+    testPriceId: 'test_free',
+    devPriceId: 'dev_free',
+    prodPriceId: 'prod_free',
+    // features: {
+    //   teamMember: 2,
+    //   website: 2,
+    //   storage: 2,
+    //   transfer: 2,
+    // },
   },
   [PLAN_ID.PREMIUM]: {
     id: PLAN_ID.PREMIUM,
-    price: 79,
-    interval: BILLING_INTERVAL.MONTH,
-    testPriceId: 'price_premium_test', // Use for testing
-    // FIXME: Update the price ID, you can create it after running `npm run stripe:setup-price`
-    devPriceId: 'price_1PNksvKOp3DEwzQlGOXO7YBK',
-    prodPriceId: '',
-    features: {
-      teamMember: 5,
-      website: 5,
-      storage: 5,
-      transfer: 5,
-    },
+    nameKey: 'premium_plan_name',
+    descriptionKey: 'premium_plan_description',
+    price: 649,
+    // interval: 'month',
+    itemsKeys: [
+      'premium_plan_item-1',
+      'premium_plan_item-2',
+      'premium_plan_item-3',
+      'premium_plan_item-4',
+    ], // Map these keys
+    testPriceId: 'test_premium',
+    devPriceId: 'dev_premium',
+    prodPriceId: 'prod_premium',
+    // features: {
+    //   teamMember: 5,
+    //   website: 5,
+    //   storage: 10,
+    //   transfer: 10,
+    // },
   },
   [PLAN_ID.ENTERPRISE]: {
     id: PLAN_ID.ENTERPRISE,
-    price: 199,
-    interval: BILLING_INTERVAL.MONTH,
-    testPriceId: 'price_enterprise_test', // Use for testing
-    // FIXME: Update the price ID, you can create it after running `npm run stripe:setup-price`
-    devPriceId: 'price_1PNksvKOp3DEwzQli9IvXzgb',
-    prodPriceId: 'price_123',
-    features: {
-      teamMember: 100,
-      website: 100,
-      storage: 100,
-      transfer: 100,
-    },
+    nameKey: 'enterprise_plan_name',
+    descriptionKey: 'enterprise_plan_description',
+    price: 749,
+    // interval: 'month',
+    itemsKeys: [
+      'enterprise_plan_item-1',
+      'enterprise_plan_item-2',
+      'enterprise_plan_item-3',
+      'enterprise_plan_item-4',
+    ], // Map these keys
+    testPriceId: 'test_enterprise',
+    devPriceId: 'dev_enterprise',
+    prodPriceId: 'prod_enterprise',
+    // features: {
+    //   teamMember: 10,
+    //   website: 10,
+    //   storage: 20,
+    //   transfer: 20,
+    // },
   },
 };

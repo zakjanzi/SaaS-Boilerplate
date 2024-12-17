@@ -1,4 +1,4 @@
-import { GitHubLogoIcon } from '@radix-ui/react-icons';
+import { CalendarIcon } from '@radix-ui/react-icons'; // Import CalendarIcon
 import { useTranslations } from 'next-intl';
 
 import { buttonVariants } from '@/components/ui/buttonVariants';
@@ -16,9 +16,9 @@ export const CTA = () => {
         buttons={(
           <a
             className={buttonVariants({ variant: 'outline', size: 'lg' })}
-            href="https://github.com/ixartz/SaaS-Boilerplate"
+            href="https://calendly.com/961automation" // Replace with your Calendly link
           >
-            <GitHubLogoIcon className="mr-2 size-5" />
+            <CalendarIcon className="mr-2 size-5" />
             {t('button_text')}
           </a>
         )}

@@ -21,11 +21,11 @@ export const Navbar = () => {
             <li data-fade>
               <LocaleSwitcher />
             </li>
-            <li className="ml-1 mr-2.5" data-fade>
+            {/* <li className="ml-1 mr-2.5" data-fade>
               <Link href="/sign-in">{t('sign_in')}</Link>
-            </li>
+            </li> */}
             <li>
-              <Link className={buttonVariants()} href="/sign-up">
+              <Link className={buttonVariants()} href="https://calendly.com/961automation">
                 {t('sign_up')}
               </Link>
             </li>
@@ -33,16 +33,16 @@ export const Navbar = () => {
         )}
       >
         <li>
-          <Link href="/sign-up">{t('product')}</Link>
+          <Link href="#services">{t('product')}</Link>
         </li>
 
         <li>
-          <Link href="/sign-up">{t('docs')}</Link>
+          <Link href="#FAQ">{t('docs')}</Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link href="/sign-up">{t('blog')}</Link>
-        </li>
+        </li> */}
 
         {/* <li>
           <Link href="/sign-up">{t('community')}</Link>

@@ -15,11 +15,21 @@ export const PricingInformation = (props: {
         <PricingCard
           key={plan.id}
           planId={plan.id}
+          nameKey={plan.nameKey}
+          descriptionKey={plan.descriptionKey}
           price={plan.price}
-          interval={plan.interval}
+          // interval={plan.interval}
           button={props.buttonList[plan.id]}
         >
-          <PricingFeature>
+          {/* Dynamically render the plan's items */}
+          {plan.itemsKeys.map(itemKey => (
+            <PricingFeature key={itemKey}>
+              {t(itemKey)}
+            </PricingFeature>
+          ))}
+
+          {/* Render the common features */}
+          {/* <PricingFeature>
             {t('feature_team_member', {
               number: plan.features.teamMember,
             })}
@@ -41,9 +51,9 @@ export const PricingInformation = (props: {
             {t('feature_transfer', {
               number: plan.features.transfer,
             })}
-          </PricingFeature>
+          </PricingFeature> */}
 
-          <PricingFeature>{t('feature_email_support')}</PricingFeature>
+          {/* <PricingFeature>{t('feature_email_support')}</PricingFeature> */}
         </PricingCard>
       ))}
     </div>

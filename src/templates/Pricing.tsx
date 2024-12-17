@@ -23,7 +23,7 @@ export const Pricing = () => {
                 size: 'sm',
                 className: 'mt-5 w-full',
               })}
-              href="/sign-up"
+              href="https://forms.gle/S3dweug2TnfiZi41A"
             >
               {t('button_text')}
             </Link>
@@ -34,7 +34,7 @@ export const Pricing = () => {
                 size: 'sm',
                 className: 'mt-5 w-full',
               })}
-              href="/sign-up"
+              href="https://forms.gle/S3dweug2TnfiZi41A"
             >
               {t('button_text')}
             </Link>
@@ -45,7 +45,7 @@ export const Pricing = () => {
                 size: 'sm',
                 className: 'mt-5 w-full',
               })}
-              href="/sign-up"
+              href="https://forms.gle/S3dweug2TnfiZi41A"
             >
               {t('button_text')}
             </Link>
